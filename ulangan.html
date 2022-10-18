@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konventer Suhu</title>
+    
+</head>
+<body>
+    <center>
+        <b>
+            <h1>Konventer Suhu</h1>
+            <table>
+                <form action="" method="post">
+                    <tr>
+                        <td>
+                            <label for="nilaiSuhu">Masukkan Nilai Temperatur :</label>
+                        </td>
+                        <td>
+                            <input type="number" name="nilaiSuhu" id="nilaiSuhu">
+                        </td>
+                        <td>
+                            <select name="pilih" id="pilih">
+                                <option value="celcius">Celcius</option>
+                                <option value="fahrenheit">Fahrenheit</option>
+                                <option value="kelvin">Kelvin</option>
+                                <option value="reamur">Reamur</option>
+                            </select>
+                        </td>
+                    </tr>
+                </form>
+            </table>
+
+            <br>
+
+            <button onclick="Ubah()">Ubah!</button>
+
+            <table>   
+                <tr>
+                    <td>
+                        <p>Celcius : </p>
+                    </td>
+                    <td>
+                        <h3 id="c">0</h3>
+                    </td>
+
+                    <td></td><td></td><td></td><td></td><td></td><td></td>
+                    <td></td><td></td><td></td><td></td><td></td><td></td>
+
+                    <td>
+                        <p>Fahrenheit : </p>
+                    </td>
+
+                    <td>
+                        <h3 id="f">0</h3>
+                    </td>
+
+                    <td></td><td></td><td></td><td></td><td></td><td></td>
+                    <td></td><td></td><td></td><td></td><td></td><td></td>
+
+                    <td>
+                        <p>Kelvin : </p>
+                    </td>
+                    <td>
+                        <h3 id="k">0</h3>
+                    </td>
+
+                    <td></td><td></td><td></td><td></td><td></td><td></td>
+                    <td></td><td></td><td></td><td></td><td></td><td></td>
+
+                    <td>
+                        <p>Reamur : </p>
+                    </td>
+                    <td>
+                        <h3 id="r">0</h3>
+                    </td>
+                </tr>
+            </table>
+            
+            
+        </b>
+    </center>
+    <script src="ulanganJS.js"></script>
+</body>
+</html>
